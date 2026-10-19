@@ -1,17 +1,43 @@
-# f3
+# Flutter 3
 
-A new Flutter project.
+Репозиторий содержит материалы лабораторной работы №3, посвященной изучению основ кроссплатформенной разработки на фреймворке Flutter от Google. В рамках работы было создано первое веб-приложение, изучена базовая структура проекта, принципы построения дерева виджетов и инструменты отладки.
 
-## Getting Started
+## Информация об авторе
+* **ФИО:** Чумаченко Михаил
+* **Группа:** ИСП-242
 
-This project is a starting point for a Flutter application.
+## Стек технологий и версии
+* **Фреймворк:** Flutter 
+* **Язык программирования:** Dart 
+* **Целевая платформа:** Web (Edge)
+* **Среда разработки:** Visual Studio Code (VS Code)
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
+![Работающее приложение Flutter](img/2026-10-20_01-28.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Запуск
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+1. Клонировать репозиторий:
+   ```bash
+   git clone <url>
+   ```
+2. Перейти в папку проекта:
+   ```bash
+   cd f3
+   ```
+3. Получить зависимости проекта:
+   ```bash
+   flutter pub get
+   ```
+4. Запустить приложение в браузере Edge:
+   ```bash
+   flutter run -d edge
+   ```
+
+## Что изучили
+В ходе выполнения лабораторной работы были освоены следующие концепции и инструменты:
+1. **Архитектура Flutter:** Познакомились с понятием дерева виджетов (Widget Tree), принципом построения декларативного UI и различиями между `StatelessWidget` и `StatefulWidget`.
+2. **Базовые виджеты:** Научились использовать и комбинировать корневые и структурные виджеты, такие как `MaterialApp`, `Scaffold`, `Container`, `Center` и `Text`.
+3. **Стилизация интерфейса:** Освоили работу с цветами (класс `Colors`), настройку линейных градиентов (`LinearGradient` в `BoxDecoration`) и кастомизацию текста через `TextStyle`.
+4. **Инструменты разработчика:** Изучили разницу между механизмами быстрой перезагрузки `Hot Reload` и `Hot Restart`, поработали со встроенной палитрой команд VS Code и инспектором `Flutter DevTools`.
