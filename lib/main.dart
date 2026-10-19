@@ -2,6 +2,8 @@ import "package:flutter/material.dart";
 
 void main(){
   runApp(MaterialApp(
-    home: Text("Hello world!")
-  ));
+    debugShowCheckedModeBanner: false,
+    home: (Scaffold(
+      body: Text("Hello world!")
+  ))));
 }
