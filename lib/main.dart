@@ -29,12 +29,30 @@ import "package:flutter/material.dart";
 //   ))));
 // }
 
+// void main(){
+//   runApp(
+//     MaterialApp(
+//       home: Scaffold(
+//         body:Text("Привет! Меня зовут Миша.\n"
+//         "Я студент группы ИСП-242.",
+//         ),
+//       ),
+//     ),
+//   );
+// }
+
 void main(){
   runApp(
     MaterialApp(
       home: Scaffold(
-        body:Text("Привет! Меня зовут Миша.\n"
-        "Я студент группы ИСП-242.",
+        body: Image.network(
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQgwIu64Bo312dnIqNw1UHrjchW1DfryPr3cC0teixw&s'
+          
+          
+          
+ 
+        
+
         ),
       ),
     ),
