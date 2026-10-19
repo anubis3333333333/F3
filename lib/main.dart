@@ -4,6 +4,19 @@ void main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: (Scaffold(
-      body: Text("Hello world!")
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Colors.white,
+              Colors.blue,
+              Colors.red,
+            ],
+          ),
+        ),
+        child: Center(
+          child: Text("Heloo world"),
+        ),
+      ),
   ))));
 }
